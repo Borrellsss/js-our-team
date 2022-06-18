@@ -60,16 +60,16 @@ for (let i = 0; i < teamMembers.length; i++) {
     // !CONSOLE.LOG DI DEBUG!
     // console.log(thisMember);
 
-    teamCardsWrapper.innerHTML +=`<div class="team-card">
-                                    <div class="card-image">
-                                    <img
-                                        src="${thisMember.photo}"
-                                        alt="Wayne Barnett"
-                                    />
-                                    </div>
-                                    <div class="card-text">
-                                    <h3>${thisMember.name}</h3>
-                                    <p>${thisMember.role}</p>
-                                    </div>
-                                </div>`;
+    teamCardsWrapper.innerHTML  += `<div class="team-card">
+                                        <div class="card-image">
+                                            <img
+                                                src="${thisMember.photo}"
+                                                alt="Wayne Barnett"
+                                            />
+                                        </div>
+                                        <div class="card-text">
+                                            <h3>${thisMember.name}</h3>
+                                            <p>${thisMember.role}</p>
+                                        </div>
+                                    </div>`;
 }

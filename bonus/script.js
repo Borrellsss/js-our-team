@@ -44,6 +44,11 @@ function addNewMember() {
     console.log(teamMembers);
 
     printNewMember();
+
+    // *al termine della funzione svuoto le input*
+    inputName.value = "";
+    inputRole.value = "";
+    inputImage.value = "";
 }
 
 function printNewMember() {
